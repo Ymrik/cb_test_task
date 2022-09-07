@@ -19,22 +19,22 @@ public class InsuranceCompanyController {
     }
 
     @GetMapping("/companies")
-    public List<InsuranceCompany> getAllCompanies(){
+    public List<InsuranceCompany> getAllCompanies() {
         return insuranceCompanyService.getAllCompanies();
     }
 
     @GetMapping("/companies/{tin}")
-    public List<InsuranceCompany> getCompaniesByTIN(@PathVariable(name = "tin") String TIN){
+    public List<InsuranceCompany> getCompaniesByTIN(@PathVariable(name = "tin") String TIN) {
         return insuranceCompanyService.getCompaniesByTIN(TIN);
     }
 
     @PostMapping("/companies")
-    public InsuranceCompany addCompany(@RequestBody InsuranceCompany insuranceCompany){
+    public InsuranceCompany addCompany(@RequestBody InsuranceCompany insuranceCompany) {
         return insuranceCompanyService.saveCompany(insuranceCompany);
     }
 
     @PutMapping("/companies")
-    public InsuranceCompany updateCompany(@RequestBody InsuranceCompany insuranceCompany){
+    public InsuranceCompany updateCompany(@RequestBody InsuranceCompany insuranceCompany) {
         return insuranceCompanyService.saveCompany(insuranceCompany);
     }
 

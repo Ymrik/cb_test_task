@@ -16,15 +16,15 @@ public class InsuranceCompanyService {
         this.insuranceCompanyRepository = insuranceCompanyRepository;
     }
 
-    public List<InsuranceCompany> getAllCompanies(){
+    public List<InsuranceCompany> getAllCompanies() {
         return insuranceCompanyRepository.findAll();
     }
 
-    public List<InsuranceCompany> getCompaniesByTIN(String TIN){
+    public List<InsuranceCompany> getCompaniesByTIN(String TIN) {
         return insuranceCompanyRepository.getInsuranceCompaniesByTINStartsWith(TIN);
     }
 
-    public InsuranceCompany saveCompany(InsuranceCompany insuranceCompany){
+    public InsuranceCompany saveCompany(InsuranceCompany insuranceCompany) {
         return insuranceCompanyRepository.save(insuranceCompany);
     }
 }
