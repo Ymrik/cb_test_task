@@ -1,0 +1,252 @@
+databaseChangeLog:
+  - changeSet:
+      id: insert-values-into-insurance-company-table
+      author: Umar
+      changes:
+        - tagDatabase:
+            tag: "2"
+        - insert:
+            tableName: insurance_companies
+            columns:
+              - column:
+                  name: TIN
+                  value: "7725520440"
+              - column:
+                  name: PSRN
+                  value: "1047796714404"
+              - column:
+                  name: full_name
+                  value: "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"СТРАХОВАЯ КОМПАНИЯ \"РЕНЕССАНС ЖИЗНЬ\""
+              - column:
+                  name: address
+                  value: "115114, ГОРОД МОСКВА, НАБЕРЕЖНАЯ ДЕРБЕНЕВСКАЯ, ДОМ 7, СТРОЕНИЕ 22, ЭТ 4 ПОМ XIII КОМ 11"
+        - insert:
+            tableName: insurance_companies
+            columns:
+              - column:
+                  name: TIN
+                  value: "7710026574"
+              - column:
+                  name: PSRN
+                  value: "1027700186062"
+              - column:
+                  name: full_name
+                  value: "СТРАХОВОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"ВСК\""
+              - column:
+                  name: address
+                  value: "121552, ГОРОД МОСКВА, УЛИЦА ОСТРОВНАЯ, 4"
+
+        - insert:
+            tableName: insurance_companies
+            columns:
+              - column:
+                  name: TIN
+                  value: "7710280644"
+              - column:
+                  name: PSRN
+                  value: "1027739205240"
+              - column:
+                  name: full_name
+                  value: "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ЗЕТТА СТРАХОВАНИЕ\""
+              - column:
+                  name: address
+                  value: "121087, ГОРОД МОСКВА, ПРОЕЗД БАГРАТИОНОВСКИЙ, 7, 11"
+        - insert:
+            tableName: insurance_companies
+            columns:
+              - column:
+                  name: TIN
+                  value: "8601023568"
+              - column:
+                  name: PSRN
+                  value: "1048600005728"
+              - column:
+                  name: full_name
+                  value: "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ГРУППА СТРАХОВЫХ КОМПАНИЙ \"ЮГОРИЯ\""
+              - column:
+                  name: address
+                  value: "628011, АВТОНОМНЫЙ ХАНТЫ-МАНСИЙСКИЙ АВТОНОМНЫЙ ОКРУГ - ЮГРА, ГОРОД ХАНТЫ-МАНСИЙСК, УЛИЦА КОМСОМОЛЬСКАЯ, 61"
+        - insert:
+            tableName: insurance_companies
+            columns:
+              - column:
+                  name: TIN
+                  value: "7728178835"
+              - column:
+                  name: PSRN
+                  value: "1027700018719"
+              - column:
+                  name: full_name
+                  value: "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"АБСОЛЮТ СТРАХОВАНИЕ\""
+              - column:
+                  name: address
+                  value: "115280, ГОРОД МОСКВА, УЛИЦА ЛЕНИНСКАЯ СЛОБОДА, ДОМ 26"
+        - insert:
+            tableName: insurance_companies
+            columns:
+              - column:
+                  name: TIN
+                  value: "7705041231"
+              - column:
+                  name: PSRN
+                  value: "1027739068060"
+              - column:
+                  name: full_name
+                  value: "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"СТРАХОВАЯ АКЦИОНЕРНАЯ КОМПАНИЯ \"ЭНЕРГОГАРАНТ\""
+              - column:
+                  name: address
+                  value: "115035, ГОРОД МОСКВА, НАБЕРЕЖНАЯ САДОВНИЧЕСКАЯ, ДОМ 23"
+        - insert:
+            tableName: insurance_companies
+            columns:
+              - column:
+                  name: TIN
+                  value: "7713056834"
+              - column:
+                  name: PSRN
+                  value: "1027739431730"
+              - column:
+                  name: full_name
+                  value: "АКЦИОНЕРНОЕ ОБЩЕСТВО \"АЛЬФАСТРАХОВАНИЕ\""
+              - column:
+                  name: address
+                  value: "115162, ГОРОД МОСКВА, УЛИЦА ШАБОЛОВКА, ДОМ 31, СТР Б"
+        - insert:
+            tableName: insurance_companies
+            columns:
+              - column:
+                  name: TIN
+                  value: "7744001803"
+              - column:
+                  name: PSRN
+                  value: "1027739031099"
+              - column:
+                  name: full_name
+                  value: "Общество с ограниченной ответственностью \"ППФ Страхование жизни\""
+              - column:
+                  name: address
+                  value: "108811, ГОРОД МОСКВА, КИЛОМЕТР КИЕВСКОЕ ШОССЕ 22-Й (П МОСКОВСКИЙ), ДОМОВЛ. 6, СТРОЕНИЕ 1"
+        - insert:
+            tableName: insurance_companies
+            columns:
+              - column:
+                  name: TIN
+                  value: "7704719732"
+              - column:
+                  name: PSRN
+                  value: "1097746021955"
+              - column:
+                  name: full_name
+                  value: "Общество с ограниченной ответственностью \"Страховая компания \"Райффайзен Лайф\""
+              - column:
+                  name: address
+                  value: "115230, ГОРОД МОСКВА, ПРОЕЗД НАГАТИНСКИЙ 1-Й, ДОМ 10, СТРОЕНИЕ 1"
+        - insert:
+            tableName: insurance_companies
+            columns:
+              - column:
+                  name: TIN
+                  value: "7707067683"
+              - column:
+                  name: PSRN
+                  value: "1027739049689"
+              - column:
+                  name: full_name
+                  value: "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО СТРАХОВАЯ КОМПАНИЯ \"РОСГОССТРАХ\""
+              - column:
+                  name: address
+                  value: "140002, ОБЛАСТЬ МОСКОВСКАЯ, ГОРОД ЛЮБЕРЦЫ, УЛИЦА ПАРКОВАЯ, ДОМ 3"
+        - insert:
+            tableName: insurance_companies
+            columns:
+              - column:
+                  name: TIN
+                  value: "6315232133"
+              - column:
+                  name: PSRN
+                  value: "1036300442045"
+              - column:
+                  name: full_name
+                  value: 'АКЦИОНЕРНОЕ ОБЩЕСТВО "СТРАХОВАЯ КОМПАНИЯ "АСТРО-ВОЛГА"'
+              - column:
+                  name: address
+                  value: "443001, ОБЛАСТЬ САМАРСКАЯ, ГОРОД САМАРА, УЛИЦА АРЦЫБУШЕВСКАЯ, ДОМ 167"
+        - insert:
+            tableName: insurance_companies
+            columns:
+              - column:
+                  name: TIN
+                  value: "7726539162"
+              - column:
+                  name: PSRN
+                  value: "1067746490305"
+              - column:
+                  name: full_name
+                  value: "Общество с ограниченной ответственностью \"Общество страхования жизни \"РЕСО-Гарантия\""
+              - column:
+                  name: address
+                  value: "117105, ГОРОД МОСКВА, ПРОЕЗД НАГОРНЫЙ, 6, СТР.8"
+        - insert:
+            tableName: insurance_companies
+            columns:
+              - column:
+                  name: TIN
+                  value: "7812016906"
+              - column:
+                  name: PSRN
+                  value: "7812016906"
+              - column:
+                  name: full_name
+                  value: "АКЦИОНЕРНОЕ ОБЩЕСТВО \"СОВКОМБАНК СТРАХОВАНИЕ\""
+              - column:
+                  name: address
+                  value: "192007, Г. САНКТ-ПЕТЕРБУРГ, НАБ. ОБВОДНОГО КАНАЛА, Д. 60, ЛИТЕРА А, ПОМЕЩ. 1-Н ЧАСТЬ ПОМЕЩ. 115"
+        - insert:
+            tableName: insurance_companies
+            columns:
+              - column:
+                  name: TIN
+                  value: "7704041020"
+              - column:
+                  name: PSRN
+                  value: "1027739089905"
+              - column:
+                  name: full_name
+                  value: "АКЦИОНЕРНОЕ ОБЩЕСТВО \"СТРАХОВАЯ КОМПАНИЯ \"ПАРИ\""
+              - column:
+                  name: address
+                  value: "127015, ГОРОД МОСКВА, УЛИЦА РАСКОВОЙ, 34, СТР. 14"
+        - insert:
+            tableName: insurance_companies
+            columns:
+              - column:
+                  name: TIN
+                  value: "1644001196"
+              - column:
+                  name: PSRN
+                  value: "1021601627453"
+              - column:
+                  name: full_name
+                  value: "АКЦИОНЕРНОЕ ОБЩЕСТВО СТРАХОВАЯ КОМПАНИЯ \" ЧУЛПАН\""
+              - column:
+                  name: address
+                  value: "423452, РЕСПУБЛИКА ТАТАРСТАН, АЛЬМЕТЬЕВСКИЙ РАЙОН, ГОРОД АЛЬМЕТЬЕВСК, УЛИЦА ПУШКИНА, 66, ПОМЕЩЕНИЕ 1"
+        - insert:
+            tableName: insurance_companies
+            columns:
+              - column:
+                  name: TIN
+                  value: "7702073683"
+              - column:
+                  name: PSRN
+                  value: "1027739095438"
+              - column:
+                  name: full_name
+                  value: "АКЦИОНЕРНОЕ ОБЩЕСТВО СТРАХОВАЯ КОМПАНИЯ \"АЛЬЯНС\""
+              - column:
+                  name: address
+                  value: "115184, ГОРОД МОСКВА, НАБЕРЕЖНАЯ ОЗЕРКОВСКАЯ, 30"
+      rollback:
+        - delete:
+            tableName: insurance_companies
+            where: TIN in ('7725520440', '7710026574', '7710280644', '8601023568', '7728178835', '7705041231', '7713056834', '7744001803', '7704719732', '7707067683', '6315232133', '7726539162', '7812016906', '7704041020', '1644001196', '7702073683')

@@ -1,0 +1,32 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-insurance-company-table
+      author: Umar
+      changes:
+        - tagDatabase:
+            tag: "1"
+        - createTable:
+            tableName: insurance_companies
+            columns:
+              - column:
+                  name: TIN
+                  type: varchar(10)
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: PSRN
+                  type: varchar(13)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: full_name
+                  type: varchar(200)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: address
+                  type: varchar(200)
+                  constraints:
+                    nullable: false
