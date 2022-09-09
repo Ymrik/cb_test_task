@@ -194,7 +194,7 @@ databaseChangeLog:
                   value: "7812016906"
               - column:
                   name: PSRN
-                  value: "7812016906"
+                  value: "1027810229150"
               - column:
                   name: full_name
                   value: "АКЦИОНЕРНОЕ ОБЩЕСТВО \"СОВКОМБАНК СТРАХОВАНИЕ\""
